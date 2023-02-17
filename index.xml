@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rishi</title>
-    <link>https://RishiDarkDevil.github.io/</link>
-      <atom:link href="https://RishiDarkDevil.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rishidarkdevil.github.io/</link>
+      <atom:link href="https://rishidarkdevil.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Rishi</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://RishiDarkDevil.github.io/media/icon_hucf31d7374fc459aedebb55d24d710d3c_248924_512x512_fill_lanczos_center_3.png</url>
+      <url>https://rishidarkdevil.github.io/media/icon_hucf31d7374fc459aedebb55d24d710d3c_248924_512x512_fill_lanczos_center_3.png</url>
       <title>Rishi</title>
-      <link>https://RishiDarkDevil.github.io/</link>
+      <link>https://rishidarkdevil.github.io/</link>
     </image>
     
     <item>
       <title>Kernel Density Estimation — A Gentle Introduction to Non-Parametric Statistics</title>
-      <link>https://RishiDarkDevil.github.io/post/kernel-density-estimation/</link>
+      <link>https://rishidarkdevil.github.io/post/kernel-density-estimation/</link>
       <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/post/kernel-density-estimation/</guid>
+      <guid>https://rishidarkdevil.github.io/post/kernel-density-estimation/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Normality is a Myth!&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -28,9 +28,9 @@
     
     <item>
       <title>Revisiting Logistic Regression — A Gentle Introduction to Generalized Linear Models</title>
-      <link>https://RishiDarkDevil.github.io/post/logistic-regression/</link>
+      <link>https://rishidarkdevil.github.io/post/logistic-regression/</link>
       <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/post/logistic-regression/</guid>
+      <guid>https://rishidarkdevil.github.io/post/logistic-regression/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;All models are wrong, but some are useful&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -41,10 +41,18 @@
     </item>
     
     <item>
+      <title>Perceptions of Poverty</title>
+      <link>https://rishidarkdevil.github.io/project/perceptions-of-poverty/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://rishidarkdevil.github.io/project/perceptions-of-poverty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Research Week With Google 2023</title>
-      <link>https://RishiDarkDevil.github.io/talk/research-week-with-google-2023/</link>
+      <link>https://rishidarkdevil.github.io/talk/research-week-with-google-2023/</link>
       <pubDate>Sat, 28 Jan 2023 13:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/talk/research-week-with-google-2023/</guid>
+      <guid>https://rishidarkdevil.github.io/talk/research-week-with-google-2023/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -66,9 +74,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Indian Symposium on Machine Learning 2022</title>
-      <link>https://RishiDarkDevil.github.io/talk/indian-symposium-on-machine-learning-2022/</link>
+      <link>https://rishidarkdevil.github.io/talk/indian-symposium-on-machine-learning-2022/</link>
       <pubDate>Mon, 12 Dec 2022 13:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/talk/indian-symposium-on-machine-learning-2022/</guid>
+      <guid>https://rishidarkdevil.github.io/talk/indian-symposium-on-machine-learning-2022/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -90,17 +98,17 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Text-Based Object Discovery</title>
-      <link>https://RishiDarkDevil.github.io/project/text-based-object-discovery/</link>
+      <link>https://rishidarkdevil.github.io/project/text-based-object-discovery/</link>
       <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/text-based-object-discovery/</guid>
+      <guid>https://rishidarkdevil.github.io/project/text-based-object-discovery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Three Musketeers in a Semicircle Problem</title>
-      <link>https://RishiDarkDevil.github.io/post/the-three-musketeers-in-a-semicircle-problem/</link>
+      <link>https://rishidarkdevil.github.io/post/the-three-musketeers-in-a-semicircle-problem/</link>
       <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/post/the-three-musketeers-in-a-semicircle-problem/</guid>
+      <guid>https://rishidarkdevil.github.io/post/the-three-musketeers-in-a-semicircle-problem/</guid>
       <description>&lt;p&gt;I came across this interesting problem on which my seniors were brainstorming late at night. It requires a bit knowledge of continuous random variables in probability and little bit visualization capability.&lt;/p&gt;
 &lt;p&gt;The problem goes like this… &lt;br&gt;
 &lt;strong&gt;There are three musketeers who stand on a circle randomly, which follows Uniform(0, 2πr) independently where r is the radius of the circle. They can help each other if they are close enough in case of a sudden attack by the enemies. Find the probability of them lying on the same semicircle.&lt;/strong&gt;&lt;/p&gt;
@@ -110,9 +118,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>The Rabbit and the Stone Problem</title>
-      <link>https://RishiDarkDevil.github.io/post/the-rabbit-and-stone-problem/</link>
+      <link>https://rishidarkdevil.github.io/post/the-rabbit-and-stone-problem/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/post/the-rabbit-and-stone-problem/</guid>
+      <guid>https://rishidarkdevil.github.io/post/the-rabbit-and-stone-problem/</guid>
       <description>&lt;p&gt;I have this friend of mine, who constantly pokes me to solve interesting puzzles. He sometimes even rings me up, just to look at the problem he sent :P This is one of those problems, that I enjoyed working on. It requires understanding of basic probability theory, counting and some time to stick to a problem that interests you.&lt;/p&gt;
 &lt;p&gt;The problem goes like this… &lt;br&gt;
 &lt;strong&gt;There are 7 stones in a row labelled 1 to 7 from left to right. A rabbit starts at stone 1 and on each turn hops to a new stone that they haven’t visited yet. After visiting all the stones, what is the probability the rabbit made exactly one leftwards jump?&lt;/strong&gt;&lt;/p&gt;
@@ -122,9 +130,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>The Classic Urn Color Change Problem</title>
-      <link>https://RishiDarkDevil.github.io/post/the-classic-urn-color-change-problem/</link>
+      <link>https://rishidarkdevil.github.io/post/the-classic-urn-color-change-problem/</link>
       <pubDate>Sat, 22 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/post/the-classic-urn-color-change-problem/</guid>
+      <guid>https://rishidarkdevil.github.io/post/the-classic-urn-color-change-problem/</guid>
       <description>&lt;p&gt;Anyone who has taken probability class in their college or school is familiar with probability problems involving the classic urn (basically a bag) setup which contains balls of different colors and the professor asks you to find the probability of occurrence of some stupid pattern. This is one of those problems.&lt;/p&gt;
 &lt;p&gt;The problem goes like this… &lt;br&gt;
 &lt;strong&gt;You are given an urn with 100 balls (50 black and 50 white). You pick balls from urn one by one without replacements until all the balls are out. A black followed by a white or a white followed by a black is “a color change”. Calculate the expected number of color changes if the balls are being picked randomly from the urn.&lt;/strong&gt;&lt;/p&gt;
@@ -134,9 +142,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>The Chessboard High Five Problem</title>
-      <link>https://RishiDarkDevil.github.io/post/the-chessboard-high-five-problem/</link>
+      <link>https://rishidarkdevil.github.io/post/the-chessboard-high-five-problem/</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/post/the-chessboard-high-five-problem/</guid>
+      <guid>https://rishidarkdevil.github.io/post/the-chessboard-high-five-problem/</guid>
       <description>&lt;p&gt;Just another day, when I was browsing through my Instagram feed, my friend sent me this interesting yet not so difficult problem involving understanding of basic probability, counting and bit of time to pause the temptation to scroll the rest of your Instagram feed.&lt;/p&gt;
 &lt;p&gt;So, the problem went like this..&lt;br&gt;
 &lt;strong&gt;Imagine you have a regular 8 x 8 chessboard, with 64 people standing on each of the 64 squares. At the same time every person turns to face one of their neighbors with equal chances i.e. say the person near the center of the chessboard can face any direction with 1/4 probability, a person at the top of the chessboard (but not the corners) has probability 1/3 to face any of its neighbors, similarly all others. Now, if two people are facing each other they give each other a high five. Find the expected number of high fives.&lt;/strong&gt;&lt;/p&gt;
@@ -146,25 +154,25 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Visuo-Textual Joint Embedding</title>
-      <link>https://RishiDarkDevil.github.io/project/visuo-textual-joint-embedding/</link>
+      <link>https://rishidarkdevil.github.io/project/visuo-textual-joint-embedding/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/visuo-textual-joint-embedding/</guid>
+      <guid>https://rishidarkdevil.github.io/project/visuo-textual-joint-embedding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scanned Document Classification</title>
-      <link>https://RishiDarkDevil.github.io/project/scanned-document-classification/</link>
+      <link>https://rishidarkdevil.github.io/project/scanned-document-classification/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/scanned-document-classification/</guid>
+      <guid>https://rishidarkdevil.github.io/project/scanned-document-classification/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Advanced Summer School on NLP 2022</title>
-      <link>https://RishiDarkDevil.github.io/talk/advanced-summer-school-on-nlp-2022/</link>
+      <link>https://rishidarkdevil.github.io/talk/advanced-summer-school-on-nlp-2022/</link>
       <pubDate>Mon, 20 Jun 2022 13:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/talk/advanced-summer-school-on-nlp-2022/</guid>
+      <guid>https://rishidarkdevil.github.io/talk/advanced-summer-school-on-nlp-2022/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -186,113 +194,113 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Neural Machine Translation</title>
-      <link>https://RishiDarkDevil.github.io/project/neural-machine-translation/</link>
+      <link>https://rishidarkdevil.github.io/project/neural-machine-translation/</link>
       <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/neural-machine-translation/</guid>
+      <guid>https://rishidarkdevil.github.io/project/neural-machine-translation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Face Recognition Psychology</title>
-      <link>https://RishiDarkDevil.github.io/project/face-recognition-psychology/</link>
+      <link>https://rishidarkdevil.github.io/project/face-recognition-psychology/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/face-recognition-psychology/</guid>
+      <guid>https://rishidarkdevil.github.io/project/face-recognition-psychology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Neural Uncertainty Representation</title>
-      <link>https://RishiDarkDevil.github.io/project/neural-uncertainty-representation/</link>
+      <link>https://rishidarkdevil.github.io/project/neural-uncertainty-representation/</link>
       <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/neural-uncertainty-representation/</guid>
+      <guid>https://rishidarkdevil.github.io/project/neural-uncertainty-representation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digit Span Test</title>
-      <link>https://RishiDarkDevil.github.io/project/digit-span-test/</link>
+      <link>https://rishidarkdevil.github.io/project/digit-span-test/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/digit-span-test/</guid>
+      <guid>https://rishidarkdevil.github.io/project/digit-span-test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pro-Environmental Attitude Analysis</title>
-      <link>https://RishiDarkDevil.github.io/project/pro-environmental-attitude-analysis/</link>
+      <link>https://rishidarkdevil.github.io/project/pro-environmental-attitude-analysis/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/pro-environmental-attitude-analysis/</guid>
+      <guid>https://rishidarkdevil.github.io/project/pro-environmental-attitude-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vector Map Stitching</title>
-      <link>https://RishiDarkDevil.github.io/project/vector-map-stitching/</link>
+      <link>https://rishidarkdevil.github.io/project/vector-map-stitching/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/vector-map-stitching/</guid>
+      <guid>https://rishidarkdevil.github.io/project/vector-map-stitching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fair Learning</title>
-      <link>https://RishiDarkDevil.github.io/project/ai-fairness/</link>
+      <link>https://rishidarkdevil.github.io/project/ai-fairness/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/ai-fairness/</guid>
+      <guid>https://rishidarkdevil.github.io/project/ai-fairness/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alzheimer&#39;s Disease Data Analysis</title>
-      <link>https://RishiDarkDevil.github.io/project/alzheimers-disease-data-analysis/</link>
+      <link>https://rishidarkdevil.github.io/project/alzheimers-disease-data-analysis/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/alzheimers-disease-data-analysis/</guid>
+      <guid>https://rishidarkdevil.github.io/project/alzheimers-disease-data-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Image Segmentation</title>
-      <link>https://RishiDarkDevil.github.io/project/image-segmentation/</link>
+      <link>https://rishidarkdevil.github.io/project/image-segmentation/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/image-segmentation/</guid>
+      <guid>https://rishidarkdevil.github.io/project/image-segmentation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Video Background Subtraction</title>
-      <link>https://RishiDarkDevil.github.io/project/video-background-subtraction/</link>
+      <link>https://rishidarkdevil.github.io/project/video-background-subtraction/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/video-background-subtraction/</guid>
+      <guid>https://rishidarkdevil.github.io/project/video-background-subtraction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eigenvalues &amp; Eigenvectors, PCA</title>
-      <link>https://RishiDarkDevil.github.io/project/eigenvalues-eigenvector-pca/</link>
+      <link>https://rishidarkdevil.github.io/project/eigenvalues-eigenvector-pca/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/eigenvalues-eigenvector-pca/</guid>
+      <guid>https://rishidarkdevil.github.io/project/eigenvalues-eigenvector-pca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>COVID-19 Air Quality Index</title>
-      <link>https://RishiDarkDevil.github.io/project/air-quality-index/</link>
+      <link>https://rishidarkdevil.github.io/project/air-quality-index/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/air-quality-index/</guid>
+      <guid>https://rishidarkdevil.github.io/project/air-quality-index/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Matrix Ops &amp; Physics Simulations</title>
-      <link>https://RishiDarkDevil.github.io/project/matrix-ops-physics-simulations/</link>
+      <link>https://rishidarkdevil.github.io/project/matrix-ops-physics-simulations/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/project/matrix-ops-physics-simulations/</guid>
+      <guid>https://rishidarkdevil.github.io/project/matrix-ops-physics-simulations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>https://RishiDarkDevil.github.io/publication/preprint/</link>
+      <link>https://rishidarkdevil.github.io/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/publication/preprint/</guid>
+      <guid>https://rishidarkdevil.github.io/publication/preprint/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
@@ -304,9 +312,9 @@ Further event details, including [page elements](https://wowchemy.com/docs/writi
     
     <item>
       <title>Slides</title>
-      <link>https://RishiDarkDevil.github.io/slides/example/</link>
+      <link>https://rishidarkdevil.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/slides/example/</guid>
+      <guid>https://rishidarkdevil.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -429,17 +437,17 @@ $$&lt;/p&gt;
     
     <item>
       <title>Kushi</title>
-      <link>https://RishiDarkDevil.github.io/mom/mom-1/</link>
+      <link>https://rishidarkdevil.github.io/mom/mom-1/</link>
       <pubDate>Wed, 16 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/mom/mom-1/</guid>
+      <guid>https://rishidarkdevil.github.io/mom/mom-1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An example journal article</title>
-      <link>https://RishiDarkDevil.github.io/publication/journal-article/</link>
+      <link>https://rishidarkdevil.github.io/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/publication/journal-article/</guid>
+      <guid>https://rishidarkdevil.github.io/publication/journal-article/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -456,9 +464,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>An example conference paper</title>
-      <link>https://RishiDarkDevil.github.io/publication/conference-paper/</link>
+      <link>https://rishidarkdevil.github.io/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/publication/conference-paper/</guid>
+      <guid>https://rishidarkdevil.github.io/publication/conference-paper/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -475,17 +483,17 @@ $$&lt;/p&gt;
     
     <item>
       <title>Annapurna</title>
-      <link>https://RishiDarkDevil.github.io/mom/mom-2/</link>
+      <link>https://rishidarkdevil.github.io/mom/mom-2/</link>
       <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/mom/mom-2/</guid>
+      <guid>https://rishidarkdevil.github.io/mom/mom-2/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://RishiDarkDevil.github.io/admin/config.yml</link>
+      <link>https://rishidarkdevil.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/admin/config.yml</guid>
+      <guid>https://rishidarkdevil.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     

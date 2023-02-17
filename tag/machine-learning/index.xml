@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning | Rishi</title>
-    <link>https://RishiDarkDevil.github.io/tag/machine-learning/</link>
-      <atom:link href="https://RishiDarkDevil.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rishidarkdevil.github.io/tag/machine-learning/</link>
+      <atom:link href="https://rishidarkdevil.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://RishiDarkDevil.github.io/media/icon_hucf31d7374fc459aedebb55d24d710d3c_248924_512x512_fill_lanczos_center_3.png</url>
+      <url>https://rishidarkdevil.github.io/media/icon_hucf31d7374fc459aedebb55d24d710d3c_248924_512x512_fill_lanczos_center_3.png</url>
       <title>Machine Learning</title>
-      <link>https://RishiDarkDevil.github.io/tag/machine-learning/</link>
+      <link>https://rishidarkdevil.github.io/tag/machine-learning/</link>
     </image>
     
     <item>
       <title>Kernel Density Estimation — A Gentle Introduction to Non-Parametric Statistics</title>
-      <link>https://RishiDarkDevil.github.io/post/kernel-density-estimation/</link>
+      <link>https://rishidarkdevil.github.io/post/kernel-density-estimation/</link>
       <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/post/kernel-density-estimation/</guid>
+      <guid>https://rishidarkdevil.github.io/post/kernel-density-estimation/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Normality is a Myth!&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -28,9 +28,9 @@
     
     <item>
       <title>Revisiting Logistic Regression — A Gentle Introduction to Generalized Linear Models</title>
-      <link>https://RishiDarkDevil.github.io/post/logistic-regression/</link>
+      <link>https://rishidarkdevil.github.io/post/logistic-regression/</link>
       <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://RishiDarkDevil.github.io/post/logistic-regression/</guid>
+      <guid>https://rishidarkdevil.github.io/post/logistic-regression/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;All models are wrong, but some are useful&lt;/p&gt;
 &lt;/blockquote&gt;
