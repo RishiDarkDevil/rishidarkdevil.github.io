@@ -1738,10 +1738,10 @@ Wall time: 33.3 s
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image.png&#34; srcset=&#34;
-               /project/quantum-deep-dive/exp-res_hucb33b37d0ccee8fe6a0cada786b406d9_769543_2f415ea3292dca3ca217ee3e62ec990a.webp 400w,
-               /project/quantum-deep-dive/exp-res_hucb33b37d0ccee8fe6a0cada786b406d9_769543_51e378e2781bfb1a75def4143b991265.webp 760w,
+               /project/quantum-deep-dive/exp-res_hucb33b37d0ccee8fe6a0cada786b406d9_769543_765d503ff13d37939e152be21ad89432.webp 400w,
+               /project/quantum-deep-dive/exp-res_hucb33b37d0ccee8fe6a0cada786b406d9_769543_736d3aeabf7f65122fa01e68ac44c957.webp 760w,
                /project/quantum-deep-dive/exp-res_hucb33b37d0ccee8fe6a0cada786b406d9_769543_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://rishidarkdevil.github.io/project/quantum-deep-dive/exp-res_hucb33b37d0ccee8fe6a0cada786b406d9_769543_2f415ea3292dca3ca217ee3e62ec990a.webp&#34;
+               src=&#34;https://rishidarkdevil.github.io/project/quantum-deep-dive/exp-res_hucb33b37d0ccee8fe6a0cada786b406d9_769543_765d503ff13d37939e152be21ad89432.webp&#34;
                width=&#34;760&#34;
                height=&#34;378&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1764,7 +1764,7 @@ Wall time: 33.3 s
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Was there anything else you would have liked to add to your project if you had more time?&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;I would have loved to use PQCs and all the things, I learnt from the implementation the VQE to solve the TSP problem, to solve various other optimization problems speacially the ones observed in Machine Learning and Chemistry, where we optimize some objective function in order to attain higher accuracy and generalizability of our model or try to find the molecular structure with minimum energy level. Additionally, I could have experiment with various Quantum Error Correction techniques and their impact on the results of this Optimization Problem.&lt;/li&gt;
+&lt;li&gt;I would have loved to use PQCs and all the things, I learnt from the implementation of VQE to solve the TSP problem, to solve various other optimization problems speacially the ones observed in Machine Learning and Chemistry, where we optimize some objective function in order to attain higher accuracy and generalizability of our model or try to find the molecular structure with minimum energy level. Additionally, I could have experiment with various Quantum Error Correction techniques and their impact on the results of this Optimization Problem.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -1783,7 +1783,7 @@ Wall time: 33.3 s
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;How does this project relate to your interests or career goals?&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;I am a Statistics Undergraduate, planning to pursue research in my academic career. This project aligns with my research interests of exploring Quantum Machine Learning and Optimization. I highly believe the confidence and knowledge I acquired while attempting to work on this project gave me a taste of how research looks in the Quantum Domain. I further intend to explore topics like Quantum Error Correction which I found quite intriguing during the course.&lt;/li&gt;
+&lt;li&gt;I am a Statistics Undergraduate, planning to pursue research in my academic career. This project aligns with my research interests of exploring Quantum Machine Learning and Optimization. I highly believe that the confidence and knowledge I acquired while attempting to work on this project gave me a taste of how research looks in the Quantum Domain. I further intend to explore topics like Quantum Error Correction which I found quite intriguing during the course.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
