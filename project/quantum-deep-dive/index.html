@@ -1434,7 +1434,7 @@ Solution Objective: 236.0
 <p><a id="Error"></a></p>
 <div class="alert alert-block alert-info">
 <h2 id="vqe-routine-not-converging-well">VQE Routine Not Converging Well</h2>
-<p>When running the same problem earlier. The results can be slightly different from when you run the same problem due to the heuristic nature of the algorithm, but we can see that it is not showing good convergence to the solution. The &lsquo;solution objective&rsquo; (solution of our objective function) gave us &lsquo;302.0,&rsquo; which is higher than our reference solution (shortest path) &lsquo;236.0.&rsquo; <br>
+<p>When running the same problem earlier. The results can be slightly different from when we run the same problem due to the heuristic nature of the algorithm, but we can see that it is not showing good convergence to the solution. The &lsquo;solution objective&rsquo; (solution of our objective function) gave us &lsquo;302.0,&rsquo; which is higher than our reference solution (shortest path) &lsquo;236.0.&rsquo; <br>
 
 
 
@@ -1467,7 +1467,7 @@ Solution Objective: 236.0
 <p><strong>Note</strong>: The above is provided since the actual computation on the quantum computer takes a long time to finish.</p>
 <h2 id="heuristic-algorithms">Heuristic Algorithms</h2>
 <p>In many applications it is important to find the minimum eigenvalue of a matrix. For example, in chemistry, the minimum eigenvalue of a Hermitian matrix characterizing the molecule is the ground state energy of that system. As we learned earlier, we can map our shortest path problem into an Ising Hamiltonian, which allows us to search for the shortest path in the same way we find the ground state energy of a molecule.</p>
-<p>We may have heard that a quantum state can be represented as a vector in a complex vector space. This space where all the possible quantum states exist is mathematically called a &lsquo;Hilbert Space.&rsquo; As your optimization problem grows in size and the more number of constraints you need to take into consideration, this adds a degree of complexity that will grow your Hilbert Space exponentially.</p>
+<p>We may have heard that a quantum state can be represented as a vector in a complex vector space. This space where all the possible quantum states exist is mathematically called a &lsquo;Hilbert Space.&rsquo; As the optimization problem grows in size and the more number of constraints we need to take into consideration, this adds a degree of complexity that will grow our Hilbert Space exponentially.</p>
 <p>Problems like the Traveling Salesman Problem are known to be NP-Hard due to how our solution space grows exponentially with each city and constraints added.</p>
 <p>This &lsquo;NP-hardness&rsquo; in theoretical computer science make heuristics the only viable option for a variety of complex optimization problems that need to be routinely solved in real-world applications where the objective of a heuristic approach is to produce a solution in a reasonable time frame that is good enough for solving the problem at hand. This solution may not be the best of all the solutions to this problem, or it may simply approximate the exact solution. But it is still valuable because finding it does not require a prohibitively long time.</p>
 <p>We may realize that this indicates that there is a &rsquo;trade-off&rsquo; between optimality and execution time. Some heuristics converge faster than others. How can we get better convergence with our current quantum systems with limited number of qubits? Now, we will explore this notion by looking at an approach that can help reduce our search space so we can arrive at a good solution in a relatively reasonable amount of time.</p>
@@ -1612,8 +1612,7 @@ $$α_{1(φ)} = cos(\theta_1), α_{2(φ)} = -sin(\theta_1) cos(\theta_2), α_{3(�
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">qiskit_ibm_runtime</span> <span class="kn">import</span> <span class="n">QiskitRuntimeService</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># Initialize service and backend</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#QiskitRuntimeService.save_account(channel=&#39;ibm_quantum&#39;, token=&#39;my_token&#39;, overwrite=True) #uncomment if you need to save your account again</span>
-</span></span><span class="line"><span class="cl"><span class="n">service</span> <span class="o">=</span> <span class="n">QiskitRuntimeService</span><span class="p">(</span><span class="n">channel</span><span class="o">=</span><span class="s2">&#34;ibm_quantum&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#QiskitRuntimeService.save_account(channel=&#39;ibm_quantum&#39;, token=&#39;my_token&#39;, overwrite=True)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># Set simulator</span>
 </span></span><span class="line"><span class="cl"><span class="n">backend</span> <span class="o">=</span> <span class="n">service</span><span class="o">.</span><span class="n">backends</span><span class="p">(</span><span class="n">simulator</span><span class="o">=</span><span class="kc">True</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
@@ -1827,7 +1826,7 @@ $$α_{1(φ)} = cos(\theta_1), α_{2(φ)} = -sin(\theta_1) cos(\theta_2), α_{3(�
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># Call RunVQE. Do not pass in options</span>
 </span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="n">Session</span><span class="p">(</span><span class="n">service</span> <span class="o">=</span> <span class="n">service</span><span class="p">,</span> <span class="n">backend</span> <span class="o">=</span> <span class="n">backend</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">result</span><span class="p">,</span> <span class="n">mean</span> <span class="o">=</span> <span class="n">RunVQE</span><span class="p">(</span><span class="n">Estimator</span><span class="p">(),</span> <span class="n">PQC</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">qubitOp</span><span class="p">,</span> <span class="n">init</span><span class="p">)</span><span class="c1">#----# Enter your code here. Do not pass in options)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">result</span><span class="p">,</span> <span class="n">mean</span> <span class="o">=</span> <span class="n">RunVQE</span><span class="p">(</span><span class="n">Estimator</span><span class="p">(),</span> <span class="n">PQC</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">qubitOp</span><span class="p">,</span> <span class="n">init</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># Print result</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
@@ -1886,7 +1885,7 @@ Wall time: 810 ms
 <h3 id="setting-up-sampler-to-obtain-our-best-bitstring">Setting up Sampler to obtain our best bitstring</h3>
 <p>Next, let us proceed to setup our Sampler to obtain the best bitstring from the result we just computed. Here we shall pass the optimal circuit with the measurements as computed above and extract the optimal_parameters list from result.</p>
 <blockquote>
-<p>A note on the usage of nearest_probability_distribution: While a Quasiprobability distribution does offer a wider gamut of information data points at your disposal, we cannot directly substitute it for a real probability distribution. For a Quasiprobability distribution to be converted into a true probability distribution, we shall use here the <code>nearest_probability_distribution()</code> function. This function takes a quasiprobability distribution as an input and maps it to the closest probability distribution as defined by the L2-norm up to a certain error bound</p>
+<p>A note on the usage of nearest_probability_distribution: While a Quasiprobability distribution does offer a wider gamut of information data points at our disposal, we cannot directly substitute it for a real probability distribution. For a Quasiprobability distribution to be converted into a true probability distribution, we shall use here the <code>nearest_probability_distribution()</code> function. This function takes a quasiprobability distribution as an input and maps it to the closest probability distribution as defined by the L2-norm up to a certain error bound</p>
 </blockquote>
 <p>We shall now use this to get our eigenstate and obtain the optimal result from this distribution!</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">list</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">optimal_parameters</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
@@ -1903,7 +1902,8 @@ Wall time: 810 ms
 </span></span><span class="line"><span class="cl">    <span class="n">options</span> <span class="o">=</span> <span class="n">Options</span><span class="p">(</span><span class="n">simulator</span><span class="o">=</span><span class="p">{</span><span class="s2">&#34;seed_simulator&#34;</span><span class="p">:</span> <span class="mi">42</span><span class="p">},</span><span class="n">resilience_level</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">    
 </span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="n">Session</span><span class="p">(</span><span class="n">service</span> <span class="o">=</span> <span class="n">service</span><span class="p">,</span> <span class="n">backend</span> <span class="o">=</span> <span class="n">backend</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">        <span class="n">sampler_result</span> <span class="o">=</span> <span class="n">Sampler</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">options</span><span class="p">)</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">optimal_circuit</span><span class="p">,</span> <span class="n">parameter_values</span><span class="o">=</span><span class="p">[</span><span class="nb">list</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">optimal_parameters</span><span class="o">.</span><span class="n">values</span><span class="p">())])</span><span class="o">.</span><span class="n">result</span><span class="p">()</span> <span class="c1"># Enter your code here. Please do pass in options in the Sampler construct.</span>
+</span></span><span class="line"><span class="cl">        <span class="n">sampler_result</span> <span class="o">=</span> <span class="n">Sampler</span><span class="p">(</span><span class="n">options</span><span class="o">=</span><span class="n">options</span><span class="p">)</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">optimal_circuit</span><span class="p">,</span> <span class="n">parameter_values</span><span class="o">=</span><span class="p">[</span><span class="nb">list</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">optimal_parameters</span><span class="o">.</span><span class="n">values</span><span class="p">())])</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">    <span class="n">result_prob_dist</span> <span class="o">=</span> <span class="n">sampler_result</span><span class="o">.</span><span class="n">quasi_dists</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">nearest_probability_distribution</span><span class="p">()</span> <span class="c1"># Obtain the nearest_probability_distribution for the sampler result from the quasi distribution obtained</span>
 </span></span><span class="line"><span class="cl">    
 </span></span><span class="line"><span class="cl">    <span class="n">max_key</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">result_prob_dist</span><span class="p">,</span> <span class="n">key</span> <span class="o">=</span> <span class="n">result_prob_dist</span><span class="o">.</span><span class="n">get</span><span class="p">),</span><span class="s2">&#34;016b&#34;</span><span class="p">)</span>
@@ -2391,7 +2391,7 @@ $$</p>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="c1"># Call RunVQE.</span>
 </span></span><span class="line"><span class="cl"><span class="k">with</span> <span class="n">Session</span><span class="p">(</span><span class="n">service</span> <span class="o">=</span> <span class="n">service</span><span class="p">,</span> <span class="n">backend</span> <span class="o">=</span> <span class="n">backend</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">    <span class="n">result_m3</span><span class="p">,</span> <span class="n">mean_m3</span> <span class="o">=</span> <span class="n">RunVQE</span><span class="p">(</span><span class="n">Estimator</span><span class="p">(),</span> <span class="n">model_3</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">qubitOp</span><span class="p">,</span> <span class="n">init_3</span><span class="p">)</span> <span class="c1">#### enter your code here ####</span>
+</span></span><span class="line"><span class="cl">    <span class="n">result_m3</span><span class="p">,</span> <span class="n">mean_m3</span> <span class="o">=</span> <span class="n">RunVQE</span><span class="p">(</span><span class="n">Estimator</span><span class="p">(),</span> <span class="n">model_3</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">qubitOp</span><span class="p">,</span> <span class="n">init_3</span><span class="p">)</span> 
 </span></span></code></pre></div><pre><code>CPU times: user 1.18 s, sys: 25.1 ms, total: 1.2 s
 Wall time: 1.2 s
 </code></pre>
@@ -2446,7 +2446,6 @@ Solution Objective: 130.0
 <h2 id="plot-convergence">Plot Convergence</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Plot convergence</span>
 </span></span><span class="line"><span class="cl"><span class="n">PlotGraph</span><span class="p">(</span><span class="n">mean</span> <span class="o">=</span> <span class="p">[</span><span class="n">mean</span><span class="p">,</span><span class="n">mean_m3</span><span class="p">],</span> <span class="n">ideal</span> <span class="o">=</span> <span class="n">ideal</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1"># Plot all three if you have run the L-shaped optional cell</span>
 </span></span><span class="line"><span class="cl"><span class="c1"># PlotGraph(mean = [mean,mean_m2,mean_m3], ideal = ideal)</span>
 </span></span></code></pre></div><p>
 
@@ -2476,7 +2475,7 @@ Solution Objective: 130.0
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<p>You will see a flat lined result close to the ideal result with an ideal simulator because it contains essentially only the feasible solution subspace which converges very fast in an ideal scenario.</p>
+<p>We see a flat lined result close to the ideal result with an ideal simulator because it contains essentially only the feasible solution subspace which converges very fast in an ideal scenario.</p>
 <p>Now it&rsquo;s time to give it another go! Formulate a PQC for a 4 node graph in order to attempt a convergence for a given 4 node graph!</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">n</span> <span class="o">=</span> <span class="mi">4</span>
 </span></span><span class="line"><span class="cl"><span class="n">num_qubits</span> <span class="o">=</span> <span class="n">n</span><span class="o">**</span><span class="mi">2</span>
@@ -2516,10 +2515,10 @@ Solution Objective: 130.0
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">qp</span> <span class="o">=</span> <span class="n">tsp</span><span class="o">.</span><span class="n">to_quadratic_program</span><span class="p">()</span> <span class="c1"># build your code here</span>
-</span></span><span class="line"><span class="cl"><span class="n">qp2qubo</span> <span class="o">=</span> <span class="n">QuadraticProgramToQubo</span><span class="p">()</span> <span class="c1"># build your code here</span>
-</span></span><span class="line"><span class="cl"><span class="n">qubo</span> <span class="o">=</span> <span class="n">qp2qubo</span><span class="o">.</span><span class="n">convert</span><span class="p">(</span><span class="n">qp</span><span class="p">)</span> <span class="c1"># build your code here</span>
-</span></span><span class="line"><span class="cl"><span class="n">qubitOp_4</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">qubo</span><span class="o">.</span><span class="n">to_ising</span><span class="p">()</span> <span class="c1"># build your code here</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">qp</span> <span class="o">=</span> <span class="n">tsp</span><span class="o">.</span><span class="n">to_quadratic_program</span><span class="p">()</span> 
+</span></span><span class="line"><span class="cl"><span class="n">qp2qubo</span> <span class="o">=</span> <span class="n">QuadraticProgramToQubo</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">qubo</span> <span class="o">=</span> <span class="n">qp2qubo</span><span class="o">.</span><span class="n">convert</span><span class="p">(</span><span class="n">qp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">qubitOp_4</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">qubo</span><span class="o">.</span><span class="n">to_ising</span><span class="p">()</span>
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">model</span> <span class="o">=</span> <span class="n">QuantumCircuit</span><span class="p">(</span><span class="n">n</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">theta</span> <span class="o">=</span> <span class="n">ParameterVector</span><span class="p">(</span><span class="s1">&#39;theta&#39;</span><span class="p">,</span><span class="n">length</span><span class="o">=</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="n">n</span><span class="o">//</span><span class="mi">2</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">
@@ -2706,28 +2705,14 @@ Wall time: 33.3 s
 
 <figure  >
   <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="attachment:image.png" alt="image.png" loading="lazy" data-zoomable /></div>
-  </div></figure>
-</p>
-<p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="attachment:image.png" alt="image.png" loading="lazy" data-zoomable /></div>
+    <div class="w-100" ><img alt="image.png" srcset="
+               /project/quantum-deep-dive/exp-res_hucb33b37d0ccee8fe6a0cada786b406d9_769543_2f415ea3292dca3ca217ee3e62ec990a.webp 400w,
+               /project/quantum-deep-dive/exp-res_hucb33b37d0ccee8fe6a0cada786b406d9_769543_51e378e2781bfb1a75def4143b991265.webp 760w,
+               /project/quantum-deep-dive/exp-res_hucb33b37d0ccee8fe6a0cada786b406d9_769543_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/project/quantum-deep-dive/exp-res_hucb33b37d0ccee8fe6a0cada786b406d9_769543_2f415ea3292dca3ca217ee3e62ec990a.webp"
+               width="760"
+               height="378"
+               loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
 <h1 id="Conclusion">Conclusion</h1>
