@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rishidarkdevil.github.io/tag/misc/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/project/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/tag/quantum-computing/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/project/quantum-deep-dive/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/tags/</loc>
+    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://rishidarkdevil.github.io/categories/</loc>
     <lastmod>2023-02-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -34,19 +54,11 @@
     <lastmod>2023-02-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://rishidarkdevil.github.io/tags/</loc>
-    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://rishidarkdevil.github.io/tag/ai4sg/</loc>
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://rishidarkdevil.github.io/project/perceptions-of-poverty/</loc>
-    <lastmod>2023-02-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://rishidarkdevil.github.io/project/</loc>
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -199,10 +211,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://rishidarkdevil.github.io/project/eigenvalues-eigenvector-pca/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://rishidarkdevil.github.io/tag/misc/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
