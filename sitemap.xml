@@ -2,12 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rishidarkdevil.github.io/tag/misc/</loc>
-    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+    <loc>https://rishidarkdevil.github.io/tag/deep-learning/</loc>
+    <lastmod>2023-05-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/tag/natural-language-processing/</loc>
+    <lastmod>2023-05-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/project/amazon-pae/</loc>
+    <lastmod>2023-05-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://rishidarkdevil.github.io/project/</loc>
-    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/tags/</loc>
+    <lastmod>2023-05-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/tag/3d-reconstruction/</loc>
+    <lastmod>2023-04-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/tag/computer-vision/</loc>
+    <lastmod>2023-04-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/project/daami2i/</loc>
+    <lastmod>2023-04-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/project/mdp-mab/</loc>
+    <lastmod>2023-04-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/project/igr-phase/</loc>
+    <lastmod>2023-04-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/tag/reinforcement-learning/</loc>
+    <lastmod>2023-04-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://rishidarkdevil.github.io/tag/quantum-computing/</loc>
@@ -15,10 +51,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://rishidarkdevil.github.io/project/quantum-deep-dive/</loc>
-    <lastmod>2023-04-09T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://rishidarkdevil.github.io/tags/</loc>
     <lastmod>2023-04-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -78,19 +110,11 @@
     <lastmod>2022-11-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://rishidarkdevil.github.io/tag/computer-vision/</loc>
-    <lastmod>2022-11-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://rishidarkdevil.github.io/tag/deep-learning/</loc>
-    <lastmod>2022-11-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://rishidarkdevil.github.io/tag/nlp/</loc>
     <lastmod>2022-11-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://rishidarkdevil.github.io/project/text-based-object-discovery/</loc>
+    <loc>https://rishidarkdevil.github.io/project/titan/</loc>
     <lastmod>2022-11-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -211,6 +235,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://rishidarkdevil.github.io/project/eigenvalues-eigenvector-pca/</loc>
+    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/tag/misc/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

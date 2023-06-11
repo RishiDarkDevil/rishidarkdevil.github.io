@@ -5,7 +5,7 @@
     <link>https://rishidarkdevil.github.io/tag/deep-learning/</link>
       <atom:link href="https://rishidarkdevil.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 15 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://rishidarkdevil.github.io/media/icon_hucf31d7374fc459aedebb55d24d710d3c_248924_512x512_fill_lanczos_center_3.png</url>
       <title>Deep Learning</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
-      <title>Text-Based Object Discovery</title>
-      <link>https://rishidarkdevil.github.io/project/text-based-object-discovery/</link>
+      <title>Product Attribute Extraction</title>
+      <link>https://rishidarkdevil.github.io/project/amazon-pae/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://rishidarkdevil.github.io/project/amazon-pae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DAAMI2I</title>
+      <link>https://rishidarkdevil.github.io/project/daami2i/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://rishidarkdevil.github.io/project/daami2i/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PHASE-based Implicit Neural Representation</title>
+      <link>https://rishidarkdevil.github.io/project/igr-phase/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://rishidarkdevil.github.io/project/igr-phase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TITAN</title>
+      <link>https://rishidarkdevil.github.io/project/titan/</link>
       <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://rishidarkdevil.github.io/project/text-based-object-discovery/</guid>
+      <guid>https://rishidarkdevil.github.io/project/titan/</guid>
       <description></description>
     </item>
     
