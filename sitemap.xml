@@ -2,6 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rishidarkdevil.github.io/categories/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/category/maths/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/post/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/tag/probability/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/category/probability/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/category/puzzle/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/category/quant/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/tags/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/post/the-asymmetric-coin-toss-problem/</loc>
+    <lastmod>2023-07-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/post/the-successive-wins-problem/</loc>
+    <lastmod>2023-07-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://rishidarkdevil.github.io/tag/deep-learning/</loc>
     <lastmod>2023-05-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -15,10 +55,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://rishidarkdevil.github.io/project/</loc>
-    <lastmod>2023-05-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://rishidarkdevil.github.io/tags/</loc>
     <lastmod>2023-05-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -54,10 +90,6 @@
     <lastmod>2023-04-09T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://rishidarkdevil.github.io/categories/</loc>
-    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://rishidarkdevil.github.io/post/kernel-density-estimation/</loc>
     <lastmod>2023-02-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -67,10 +99,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://rishidarkdevil.github.io/category/machine-learning/</loc>
-    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://rishidarkdevil.github.io/post/</loc>
     <lastmod>2023-02-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -122,31 +150,11 @@
     <lastmod>2022-10-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://rishidarkdevil.github.io/category/maths/</loc>
-    <lastmod>2022-10-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://rishidarkdevil.github.io/tag/probability/</loc>
-    <lastmod>2022-10-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://rishidarkdevil.github.io/category/probability/</loc>
-    <lastmod>2022-10-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://rishidarkdevil.github.io/tag/puzzle/</loc>
     <lastmod>2022-10-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://rishidarkdevil.github.io/category/puzzle/</loc>
-    <lastmod>2022-10-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://rishidarkdevil.github.io/tag/quant/</loc>
-    <lastmod>2022-10-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://rishidarkdevil.github.io/category/quant/</loc>
     <lastmod>2022-10-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
