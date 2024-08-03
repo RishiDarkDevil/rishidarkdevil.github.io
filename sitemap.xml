@@ -3,7 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://rishidarkdevil.github.io/event/</loc>
-    <lastmod>2023-12-10T13:00:00+00:00</lastmod>
+    <lastmod>2024-03-11T15:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://rishidarkdevil.github.io/talk/research-and-innovation-symposium-in-computing/</loc>
+    <lastmod>2024-03-11T15:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://rishidarkdevil.github.io/talk/theoretical-computer-science-winter-school/</loc>
